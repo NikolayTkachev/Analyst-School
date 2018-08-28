@@ -1,1 +1,78 @@
 Команды, которые я выполнил перед тем, как запушил коммит в облако (свой репозиторий):
+Commits:
+commit 693158f16113060f87031f3ffc2abb5e2d8cdb8d (HEAD -> master, origin/master, origin/HEAD)
+Author: NikolayTkachev <n.tkachev@dodopizza.com>
+Date:   Tue Aug 28 18:17:27 2018 +0300
+
+    Pravki v readme, add file txt
+
+commit fb1ac4dc4d0b6b71fd3c9f7608e6c6aa7e8c8e4b
+Author: NikolayTkachev <n.tkachev@dodopizza.com>
+Date:   Tue Aug 28 18:09:05 2018 +0300
+
+    Komadi v iterm
+
+commit 2c5c09497163a33f29cb4467f07dbb2aa6a355af
+Author: NikolayTkachev <n.tkachev@dodopizza.com>
+Date:   Tue Aug 28 18:04:29 2018 +0300
+
+    Ssylka na video po git
+
+commit aed9e0055ced3b3df661d497d11613627a4cf4ca
+Author: NikolayTkachev <n.tkachev@dodopizza.com>
+Date:   Tue Aug 28 14:48:38 2018 +0300
+
+    HW2
+
+commit 0a0b36186a3325a740de60f62913aeb95f706ecc
+Author: NikolayTkachev <n.tkachev@dodopizza.com>
+
+Comands in iterm:
+➜  Analyst-School git:(master) git log
+➜  Analyst-School git:(master) ✗ ls
+HW.html
+README.md
+Команды в терминале.txt
+➜  Analyst-School git:(master) ✗ git st
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Команды в терминале.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  Analyst-School git:(master) ✗ git add *.*
+➜  Analyst-School git:(master) ✗ git st
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   README.md
+	new file:   Команды в терминале.txt
+
+➜  Analyst-School git:(master) ✗ git commit -m "Pravki v readme, add file txt"
+[master 693158f] Pravki v readme, add file txt
+ 2 files changed, 3 insertions(+), 48 deletions(-)
+ rewrite README.md (96%)
+ create mode 100644 Команды в терминале.txt
+➜  Analyst-School git:(master) git push
+Enter passphrase for key '/Users/dodo/.ssh/id_rsa':
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 508 bytes | 254.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:NikolayTkachev/Analyst-School.git
+   fb1ac4d..693158f  master -> master
